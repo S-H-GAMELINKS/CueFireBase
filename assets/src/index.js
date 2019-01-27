@@ -11,11 +11,6 @@ Vue.use(Bootstrap);
 const app = new Vue({
     el: '#app',
     router: Router,
-    data: function() {
-        return {
-            message: "Hello C++ & Vue.js!"
-        }
-    },
     components: {
         'nav-bar': Header
     }
